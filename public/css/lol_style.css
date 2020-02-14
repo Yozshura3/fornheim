@@ -1,0 +1,60 @@
+/*
+Projet: Fil rouge FORNHEIM
+Auteur: Julien Miralles
+Date: Février 2020
+Version: Alpha 3.0
+
+*/
+/* 1-1 Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.resp{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background-image: url("../img/lolwall.png");
+    height: 100vh;
+    background-color: #17272c;
+}
+
+.fornheimlogo{
+    width: 350px;
+}
+
+.nav-wrap{
+    display:flex;
+    justify-content: space-around;
+    font-size: 2em;
+    align-items: center;
+    font-family: 'IM Fell English SC', serif;
+
+}
+.news, .guides, .shadowland{
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-left:solid 1px #00adff;
+}
+.news a, .guides a, .shadowland a {
+    text-decoration-line: none;
+    background: linear-gradient(#00adff, #0e1819);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.lol_logo{
+    width: 180px;
+}
+
+.temtem_logo{
+    width: 200px;
+}
