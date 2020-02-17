@@ -16,13 +16,6 @@ class AccueilController extends AbstractController
         return $this->render('accueil.html.twig');
     }
 
-    /** Déclaration de la page BFA
-    * @Route("/bfa", name="bfa_accueil")
-    */
-    public function bfaController(){
-        return $this->render('wow.html.twig');
-    }
-
     /** Déclaration de la page LoL
     * @Route("/lol", name="lol_accueil")
     */

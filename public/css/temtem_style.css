@@ -6,58 +6,123 @@ Version: Alpha 3.0
 
 */
 /* 1-1 Reset */
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.resp{
+/* Responsive des images */
+.resp {
     width: 100%;
     height: auto;
 }
 
-body{
+/* Wallpaper png Temtem vers orange */
+body {
     background-image: url("../img/temtemwall.png");
     background-position: center;
     background-size: cover;
     height: 100vh;
     background-color: #d67c07;
+    font-family: 'Rubik', sans-serif;
+    background-repeat: no-repeat;
 }
 
-.fornheimlogo{
-    width: 350px;
+div {
+    display: block;
 }
 
-.nav-wrap{
-    display:flex;
-    justify-content: space-around;
-    font-size: 2em;
+/* HEADER */
+
+.fornheimlogo {
+    width: 60%;
+    margin: 20px auto 0;
+}
+
+.head-wrap {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.4);
+}
+
+.game_bloc {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    font-family: 'IM Fell English SC', serif;
-}
-.news:hover, .guides:hover, .shadowland:hover{
-    border-bottom:solid 2px #462f63;
-}
-.news, .guides, .shadowland{
-    width: 300px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-}
-.news a, .guides a, .shadowland a {
-    text-decoration-line: none;
-    background: linear-gradient(#462f63, #EC6D64);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
+    width: 70%;
+    margin: 0 auto 20px;
 }
 
-.lol_logo{
-    width: 180px;
+.temtem_logo {
+    width: 50%;
 }
 
-.temtem_logo{
+.lol_logo {
+    width: 50%
+}
+
+header {
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(213, 137, 210, 0.9), rgba(213, 124, 7, 0.9));
+    border-right: solid 1px rgba(255, 255, 255, 0.4);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+    position: fixed;
+
+}
+
+.nav-wrap {
+    font-size: 1.5em;
+    width: 100%;
+    text-align: left;
+
+}
+
+.nav-wrap a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-wrap div:hover {
+    background-color: rgba(255, 61, 51, 0.3);
+}
+
+.news, .guides, .map-menu, .wikitem, .discord {
+    width: 100%;
+    padding: 0 10%;
+    height: 80px;
+    line-height: 80px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.guides, .list_items, .map-menu {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* MAIN CONTENT */
+
+.search{
     width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 20px 0 0 80%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    display: block;
+    min-height: 85%;
+    margin: 0 0 0 20%;
+    padding-top: 5%;
+
+}
+
+.white_wall{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    clip-path: polygon(0 .12%,0 59.135%,.351% 66.346%,.088% 86.538%,.088% 98.558%,46.754% 98.798%,48.684% 99.519%,73.333% 97.837%,88.421% 100%,100% 99.519%,100% 55.529%,99.386% 50.721%,99.737% 42.548%,99.737% .225%,78.947% 0,61.316% 0,23.772% .962%,5.351% .481%,0 .12%);
 }
