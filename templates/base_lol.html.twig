@@ -14,11 +14,13 @@
 <header>
 
         <div class="head-wrap">
+
             <div class="fornheimlogo"><img class="resp" src="{{ asset('img/logo.png') }}" alt=""></div>
-            <div class="game_bloc">
-                <div class="temtem_logo"><a href="{{ path('temtem_accueil') }}"><img class="resp" src="{{ asset('img/temtem_logo.png') }}" alt=""></a></div>
-                <div class="lol_logo"><a href="{{ path('lol_accueil') }}"><img class="resp" src="{{ asset('img/lol_logo.png') }}" alt=""></a></div>
-            </div>
+            <a href="{{ path('temtem_accueil') }}">
+                <div class="redirect">
+                    <div class="logotem"><img class="resp" src="{{ asset('img/temtem_logo.png') }}" alt=""></div>
+                    <div class="arrow"><img class="resp" src="{{ asset('img/next_lol.png') }}" alt=""></div>
+                </div></a>
         </div>
 
     <div class="nav-wrap">

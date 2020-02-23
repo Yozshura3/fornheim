@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    {% block stylesheet %}{% endblock %}
+    <title>Document</title>
+</head>
+<body>
+<header>
+
+    <div class="head-wrap">
+
+        <div class="fornheimlogo"><img class="resp" src="{{ asset('img/logo.png') }}" alt=""></div>
+        <a href="{{ path('lol_accueil') }}">
+            <div class="redirect">
+                <div class="logolol"><img class="resp" src="{{ asset('img/lol_logo2.png') }}" alt=""></div>
+                <div class="arrow"><img class="resp" src="{{ asset('img/next_temtem.png') }}" alt=""></div>
+            </div></a>
+
+        <!--<div class="game_bloc">
+                <div class="temtem_logo"><a href="{{ path('temtem_accueil') }}"><img class="resp" src="{{ asset('img/temtem_logo.png') }}" alt=""></a></div>
+                <div class="lol_logo"><a href="{{ path('lol_accueil') }}"><img class="resp" src="{{ asset('img/lol_logo.png') }}" alt=""></a></div>
+            </div> -->
+    </div>
+
+    <div class="nav-wrap">
+        {% block nav1 %}{% endblock %}
+        {% block nav2 %}{% endblock %}
+        {% block nav3 %}{% endblock %}
+        {% block nav4 %}{% endblock %}
+        {% block nav5 %}{% endblock %}
+        {% block nav6 %}{% endblock %}
+        {% block nav7 %}{% endblock %}
+    </div>
+</header>
+{% block section %}{% endblock %}
+
+</body>
+</html>

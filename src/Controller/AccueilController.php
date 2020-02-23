@@ -27,7 +27,14 @@ class AccueilController extends AbstractController
      * @Route("/temtem", name="temtem_accueil")
      */
     public function temtemController(){
-         return $this->render('temtem.html.twig');
+         return $this->render('accueil_temtem.html.twig');
      }
+
+    /** Déclaration de la page TemTem
+     * @Route("/list-temtem", name="temtem_list")
+     */
+    public function listTemtemController(){
+        return $this->render('list_temtem.html.twig');
+    }
 }
 

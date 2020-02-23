@@ -1,4 +1,4 @@
-{% extends 'base_accueil.html.twig' %}
+{% extends 'base_temtem.html.twig' %}
 
 
 {% block stylesheet %}<link rel="stylesheet" href="{{ asset('css/temtem_style.css') }}">{% endblock %}
@@ -8,7 +8,9 @@
         {% block nav2 %}<a href=""><div class="guides">Guides</div></a>{% endblock %}
         {% block nav3 %}<a href=""><div class="wikitem">Wiki-Temtem</div></a>{% endblock %}
         {% block nav4 %}<a href=""><div class="map-menu">Map Intéractive</div></a>{% endblock %}
-        {% block nav5 %}<a href=""><div class="discord">Serveur discord</div></a>{% endblock %}
+        {% block nav5 %}<a href=""><div class="housing">Housing builder</div></a>{% endblock %}
+        {% block nav6 %}<a href=""><div class="discord">Serveur discord</div></a>{% endblock %}
+
 
 
 
@@ -19,6 +21,4 @@
         <div class="white_wall"></div>
 
     </div>
-
-
 {% endblock %}

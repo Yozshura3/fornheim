@@ -41,33 +41,17 @@ Version: Alpha 3.0
 }
 
 .temtembloc, .lolbloc {
-    width: 90%;
+    width: 480px;
     margin: 0 auto;
-    clip-path: polygon(0 .12%, 0 59.135%, .351% 66.346%, .088% 86.538%, .088% 98.558%, 46.754% 98.798%, 48.684% 99.519%, 73.333% 97.837%, 88.421% 100%, 100% 99.519%, 100% 55.529%, 99.386% 50.721%, 99.737% 42.548%, 99.737% .225%, 78.947% 0, 61.316% 0, 23.772% .962%, 5.351% .481%, 0 .12%);
+    transition: all ease 1s;
 }
-
 
 .resp {
     width: 100%;
     height: auto;
 }
 
-.temtembloc:hover, .lolbloc:hover {
-    animation-duration: 1s;
-    animation-name: ease-out;
-    animation-fill-mode: forwards;
-    animation-delay: 0.4s;
+.temtembloc:hover, .lolbloc:hover{
+    -webkit-transform: scale(1.2);
+    transition: all ease 1s;
 }
-
-@keyframes ease-out {
-    from {
-        width: 90%;
-    }
-
-    to {
-        width: 97%;
-    }
-
-
-}
-

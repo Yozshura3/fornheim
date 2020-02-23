@@ -37,7 +37,7 @@ div {
 
 .fornheimlogo {
     width: 60%;
-    margin: 20px auto 0;
+    margin:10px auto;
 }
 
 .head-wrap {
@@ -67,7 +67,27 @@ header {
     border-right: solid 1px rgba(255, 255, 255, 0.4);
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
     position: fixed;
+}
 
+.redirect{
+    width: 100%;
+    height:auto;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.redirect:hover{
+    background-color: rgba(145, 123, 62, 0.8);
+}
+.logolol{
+    padding-top: 5px;
+    width: 70%;
+}
+.arrow{
+    width: 10%;
 }
 
 .nav-wrap {
@@ -87,7 +107,7 @@ header {
     background-color: rgba(255, 61, 51, 0.3);
 }
 
-.news, .guides, .map-menu, .wikitem, .discord {
+.news, .guides, .map-menu, .wikitem, .housing, .discord  {
     width: 100%;
     padding: 0 10%;
     height: 80px;
@@ -95,20 +115,43 @@ header {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.guides, .list_items, .map-menu {
+.guides, .list_items, .map-menu,.discord {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* MAIN CONTENT */
+.searchbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
 
 .search{
     width: 200px;
     height: 25px;
     border-radius: 5px;
-    margin: 20px 0 0 80%;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    margin-right: 2%;
 }
 
+.magnifying{
+    width: 30px;
+    height: auto;
+}
+
+.login{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.user{
+    width:30px;
+}
 .container {
     position: relative;
     width: 80%;
