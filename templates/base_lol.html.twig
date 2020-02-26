@@ -8,14 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     {% block stylesheet %}{% endblock %}
-    <title>Document</title>
+    <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
 <header>
 
         <div class="head-wrap">
 
-            <div class="fornheimlogo"><img class="resp" src="{{ asset('img/logo.png') }}" alt=""></div>
+            <div class="fornheimlogo"><img class="resp" src="{{ asset('img/horizon.png') }}" alt=""></div>
             <a href="{{ path('temtem_accueil') }}">
                 <div class="redirect">
                     <div class="logotem"><img class="resp" src="{{ asset('img/temtem_logo.png') }}" alt=""></div>
@@ -24,13 +24,11 @@
         </div>
 
     <div class="nav-wrap">
-        {% block nav1 %}{% endblock %}
-        {% block nav2 %}{% endblock %}
-        {% block nav3 %}{% endblock %}
-        {% block nav4 %}{% endblock %}
-        {% block nav5 %}{% endblock %}
-        {% block nav6 %}{% endblock %}
-        {% block nav7 %}{% endblock %}
+        <a href=""><div class="news">News</div></a>
+        <a href=""><div class="guides">Guides</div></a>
+        <a href=""><div class="wikitem">Wiki-Rift</div></a>
+        <a href=""><div class="academia">Runeterra Academia</div></a>
+        <a href=""><div class="discord">Serveur discord</div></a>
     </div>
 </header>
 {% block section %}{% endblock %}

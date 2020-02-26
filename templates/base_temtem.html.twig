@@ -8,37 +8,45 @@
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     {% block stylesheet %}{% endblock %}
-    <title>Document</title>
+    <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
 <header>
 
     <div class="head-wrap">
 
-        <div class="fornheimlogo"><img class="resp" src="{{ asset('img/logo.png') }}" alt=""></div>
+        <div class="fornheimlogo"><img class="resp" src="{{ asset('img/horizon.png') }}" alt=""></div>
         <a href="{{ path('lol_accueil') }}">
             <div class="redirect">
                 <div class="logolol"><img class="resp" src="{{ asset('img/lol_logo2.png') }}" alt=""></div>
                 <div class="arrow"><img class="resp" src="{{ asset('img/next_temtem.png') }}" alt=""></div>
             </div></a>
 
-        <!--<div class="game_bloc">
-                <div class="temtem_logo"><a href="{{ path('temtem_accueil') }}"><img class="resp" src="{{ asset('img/temtem_logo.png') }}" alt=""></a></div>
-                <div class="lol_logo"><a href="{{ path('lol_accueil') }}"><img class="resp" src="{{ asset('img/lol_logo.png') }}" alt=""></a></div>
-            </div> -->
     </div>
 
     <div class="nav-wrap">
-        {% block nav1 %}{% endblock %}
-        {% block nav2 %}{% endblock %}
-        {% block nav3 %}{% endblock %}
-        {% block nav4 %}{% endblock %}
-        {% block nav5 %}{% endblock %}
-        {% block nav6 %}{% endblock %}
-        {% block nav7 %}{% endblock %}
+        <a href=""><div class="news">News</div></a>
+        <a href=""><div class="guides">Guides</div></a>
+        <a href=""><div class="wikitem">Wiki-Temtem</div></a>
+        <a href=""><div class="map-menu">Temtem Academia</div></a>
+        <a href=""><div class="housing">Housing builder</div></a>
+        <a href=""><div class="discord">Serveur discord</div></a>
     </div>
 </header>
-{% block section %}{% endblock %}
+<div class="searchbar">
+    <div class="magnifying"><img class="resp" src="{{ asset('img/search.png') }}" alt=""></div>
+    <input class="search" type="search">
+    <div class="user"><img class="resp" src="{{ asset('img/user.png') }}" alt=""></div>
+    <div class="login">Connexion</div>
+</div>
+
+<div class="container">
+    {% block section %}
+
+    {% endblock %}
+</div>
+
+
 
 </body>
 </html>

@@ -36,8 +36,8 @@ div {
 /* HEADER */
 
 .fornheimlogo {
-    width: 60%;
-    margin: 10px auto;
+    width: 100%;
+    margin: 10px auto 0 ;
 }
 
 .head-wrap {
@@ -54,10 +54,6 @@ div {
 
 .temtem_logo {
     width: 50%;
-}
-
-.lol_logo {
-    width: 50%
 }
 
 header {
@@ -110,7 +106,7 @@ header {
     background-color: rgba(255, 61, 51, 0.3);
 }
 
-.news, .guides, .map-menu, .wikitem, .housing, .discord  {
+.news, .guides, .map-menu, .wikitem, .housing, .discord, .academia  {
     width: 100%;
     padding: 0 10%;
     height: 80px;
@@ -118,7 +114,7 @@ header {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.guides, .list_items, .map-menu,.discord {
+.guides, .list_items, .map-menu,.academia {
     background-color: rgba(0, 0, 0, 0.1);
 }
 

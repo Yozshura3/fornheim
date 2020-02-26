@@ -22,26 +22,19 @@ Version: Alpha 3.0
 .fornheimlogo {
     width: 60%;
     margin: 0 auto;
-
-}
-
-.fornheimlogo img {
-    margin-top: 50px;
+    padding-top: 20px;
 }
 
 .bloc, .fornheimlogo {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
-.bloc {
-    padding-top: 125px;
-}
 
 .temtembloc, .lolbloc {
     width: 480px;
+    height: 331px;
     margin: 0 auto;
     transition: all ease 1s;
 }
@@ -54,4 +47,5 @@ Version: Alpha 3.0
 .temtembloc:hover, .lolbloc:hover{
     -webkit-transform: scale(1.2);
     transition: all ease 1s;
+    box-shadow: 0px 0px 20px rgba(2,223,183,0.8);
 }

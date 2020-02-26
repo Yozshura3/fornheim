@@ -36,8 +36,8 @@ div {
 /* HEADER */
 
 .fornheimlogo {
-    width: 60%;
-    margin:10px auto;
+    width: 100%;
+    margin:10px auto 0 ;
 }
 
 .head-wrap {
@@ -50,10 +50,6 @@ div {
     align-items: center;
     width: 70%;
     margin: 0 auto 20px;
-}
-
-.temtem_logo {
-    width: 50%;
 }
 
 .lol_logo {
@@ -148,9 +144,12 @@ header {
     text-align: center;
     margin-right: 5%;
 }
+.login p{
+    background: linear-gradient(#e8be69,#854711);
+}
 
 .user{
-    width:30px;
+    width:25px;
 }
 .container {
     position: relative;
