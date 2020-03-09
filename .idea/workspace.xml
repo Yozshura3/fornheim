@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1700c22d-ea91-4ac6-b6f8-91e70a0e16f8" name="Default Changelist" comment="Dernière mise à jour des bases">
-      <change afterPath="$PROJECT_DIR$/public/img/horizon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/horizon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/horizon3.png" afterDir="false" />
+    <list default="true" id="1700c22d-ea91-4ac6-b6f8-91e70a0e16f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/img/5d23550d15183441256444.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/League-Friends-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/Mystic_TFT_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/Summoners_Rift.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/TFT-détouré.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/accueilwall2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/tft.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/tftbloc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/tftlogo2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/lol_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lol_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/temtem_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/temtem_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/horizon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/horizon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/lolbloc.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/lolbloc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/temtembloc.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/temtembloc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/temtemwall.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/temtemwall.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/accueil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accueil.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accueil_temtem.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accueil_temtem.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base_lol.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_lol.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base_temtem.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_temtem.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lol.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lol.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,6 +214,10 @@
       <workItem from="1582472298698" duration="7724000" />
       <workItem from="1582564329172" duration="4296000" />
       <workItem from="1582657334549" duration="1905000" />
+      <workItem from="1582704473817" duration="797000" />
+      <workItem from="1582925465003" duration="998000" />
+      <workItem from="1583729402489" duration="251000" />
+      <workItem from="1583775971266" duration="2183000" />
     </task>
     <task id="LOCAL-00001" summary="Css en cours">
       <created>1581908763595</created>
@@ -224,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582422275092</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dernière mise à jour des bases">
+      <created>1582704667801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582704667801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,22 +257,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="324" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581516490440" />
-    <state x="428" y="12" width="1173" height="952" key="CommitChangelistDialog2" timestamp="1582494912795">
+    <state x="428" y="12" width="1173" height="952" key="CommitChangelistDialog2" timestamp="1582704667239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="428" y="12" width="1173" height="952" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582494912795" />
+    <state x="428" y="12" width="1173" height="952" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582704667239" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1581951621197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581951621197" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582422281637">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582704670637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582422281637" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582704474359">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582704670637" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1583776410230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582704474359" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583776410230" />
     <state x="691" y="70" width="737" height="909" key="find.popup" timestamp="1582584243689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
